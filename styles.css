@@ -1,0 +1,82 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    background-image: url('pisararata.jpg');
+    background-repeat: no-repeat;
+    background-position: 10% 0 0 10%;
+    width: 1200px;
+}
+
+#wrapper {
+    background-color: rgba(247, 249, 133, 0.69);
+    width: 75%;
+    margin: 5% 0 0 45%;
+    padding: 15px;
+    min-height: 50%;
+    display: block;
+}
+
+div#row {
+    display: flex;
+    justify-content: space-around;
+}
+
+div #vasen {
+    margin-right: 10px
+}
+
+div #oikea {
+    margin-left: 10px;
+}
+
+h3 {
+    margin-left: 0;
+}
+
+header {
+    margin-left: 4.5%;
+}
+
+button {
+    margin: 0 15px;
+    width: 20%;
+}
+
+ul {
+    list-style: none;
+    font-weight: 800;
+    margin: 0 5% 5% 0;
+}
+
+img {
+    margin-left: 110px;
+}
+
+li {
+    width: 100%;
+    padding: 7px;
+    background-color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+select {
+    background: silver;
+    font-size: 1em;
+    padding: 1px 0 1px 2px;
+    margin-left: 10px;
+    width: 12%;
+}
+
+input {
+    border: 1px solid black;
+    font-size: 1em;
+    padding: 1px 0 1px 2px;
+    margin-left: 5px;
+    width: 20%;
+}
+
+#error {
+    color: orangered;
+}

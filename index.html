@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css"> </link>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet"></link>
+
+</head>
+
+<body>
+
+
+    <div id="wrapper">
+        <header>
+            <h3> Juna-aikatauluhaku asemittain </h3>
+            <br> Kirjoita junaseman nimi:
+            <input type="text" id="stationsearch" value="">
+            <button onclick="loadDoc('https://rata.digitraffic.fi/api/v1/metadata/stations/', stations);">Haku</button><button id="nappi">Näytä tiedot</button>
+            <p>Lataa sivu uudelleen nollataksesi hakutulokset.</p>
+        </header>
+        <br>
+
+        <h3 id="city"></h3>
+        <h3 id="error"></h3>
+        <div id="row">
+            <div id="vasen">
+                <ul id="saapuvat">Saapuvat</ul>
+            </div>
+            <div id="oikea">
+                <ul id="lahtevat">Lähtevät</ul>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts.js">
+    </script>
+</body>
+
+</html>
